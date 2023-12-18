@@ -1,0 +1,212 @@
+
+/* START OF NAVIGATION MENU MODULE CSS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* END OF NAVIGATION MENU MODULE CSS*//* START  navigation module CSS here   */
+/*START OF SEARCH BAR*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type=text] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #ddd;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/* END OF SEARCH BAR*/
+.navbar{
+	
+	background-image:url("images/download.jpg");
+	margin-bottom: 11px;
+}
+.navbar-brand{
+color:black
+}
+.navbar-brand img{
+height: 3rem;
+margin-right:9px;
+position:relative;
+bottom:7px;
+
+}
+.navbar li{
+margin-right:13px;
+font-size: 20px;
+
+}
+
+/* END  navigation module CSS here   */
+
+/* START CAROUSEL MODULES CSS */
+
+#carousel img
+{
+	height:550px;
+}
+
+/* END CAROUSEL MODULES CSS*/
+
+/* START THREE PHOTO MODULES CSS*/
+
+#threePhotoSection img
+{
+	width: 420px;
+	height:300px;
+}
+#threePhotoSection h3
+{
+margin-top:100px;
+margin-bottom:50px;
+}
+#threePhotoSection
+{
+	margin-bottom:30px;
+}
+
+/* END OF THREE PHOTO MODULES CSS*/
+
+/* START OF PARAGRAPH MODULES CSS*/
+#moreAboutUs h3 
+{
+	padding:25px;
+	padding-bottom:40px;
+}
+
+#moreAboutUs  blockquote
+{
+	padding:55px;
+	
+}
+
+/* END OF PARAGRAPH MODULES CSS*/
+
+/* START OF TABLE MODULE CSS*/
+/* END OF TABLE MODULE CSS*/
+
+/* START OF FORM MODULES CSS*/
+/* END OF FORM MODULES CSS*/
+
+/* START OF BUTTON CSS*/
+.btn{
+	margin-left:auto;
+	margin-right:auto;display:block;
+	margin-bottom:50px;
+   margin-top:50px;
+}
+Classes for different colours in buttons
+btn btn-outline-primary
+btn btn-outline-secondary
+btn btn-outline-success
+btn btn-outline-info
+btn btn-outline-warning
+btn btn-outline-danger
+btn btn-outline-dark
+btn btn-outline-light
+
+/* END OF BUTTON CSS*/
+
+ /* START OF FOOTER CSS*/
+ .footer{
+	background-image: url("images/ironman.jpg");
+	color:white;
+}
+
+ /* END OF FOOTER CSS*/
+ 
